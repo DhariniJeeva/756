@@ -1,0 +1,145 @@
+
+body {
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background: url("../images/bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1 {
+    margin: 20px;
+    text-align: center;
+    font-family: 'Courgette', bold;
+    color: whitesmoke;
+    font-size: 40px;
+}
+
+a {
+    color: steelblue;
+}
+
+.image {
+    margin-top: 10%;
+
+    border-color: darkblue;
+    margin-left: 40%;
+
+}
+
+.about {
+    margin-left: 25%;
+    margin-top: 40px;
+    width: 800px;
+    height: auto;
+    font-family: 'Courgette', cursive;
+    font-size: 19px;
+    color: whitesmoke;
+
+}
+
+.navigation {
+    margin-left: 23%;
+    padding: 30px;
+    font-family: 'Courgette', cursive;
+    color: whitesmoke;
+}
+
+.corner {
+    float: right;
+    margin-left: 60%;
+    margin-right: 10%;
+
+}
+
+#b {
+    float: right;
+    margin-right: 10%;
+    width: 250px;
+    height: 50px;
+    background-color: #cccccc;
+    cursor: hand;
+    font-size: large;
+
+}
+
+#head {
+    position: fixed;
+    top: 0;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    left: 0;
+    right: 0;
+
+}
+
+label {
+    float: left;
+    width: 150px;
+    text-align: left;
+    padding: 10px;
+}
+
+footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    background-color: #efefef;
+    text-align: center;
+}
+
+input[type=text], [type=email] {
+    padding: 5px;
+    border: 2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width: 150px;
+}
+
+input[type=text]:focus {
+    border-color: #333;
+}
+
+input[type=email]:focus {
+    border-color: #333;
+}
+
+textarea[type=comments] {
+    padding: 5px;
+    border: 2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width: 150px;
+
+}
+
+textarea[type=comments]:focus {
+    border-color: #333;
+}
+
+input[type=submit] {
+    padding: 5px 15px;
+    margin: 5px;
+    background: #ccc;
+    border: 0 none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    float: left;
+}
+
+input[type=reset] {
+    padding: 5px 15px;
+    margin: 5px;
+    background: #ccc;
+    border: 0 none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
